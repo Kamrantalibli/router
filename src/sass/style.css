@@ -1,0 +1,91 @@
+.home-cont {
+  background-color: #F2F6F7;
+}
+
+.home-cont .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-cont .container .left h6 {
+  font-size: 15px;
+}
+
+.home-cont .container .left h6 i {
+  color: #FF5A3C;
+}
+
+.home-cont .container .left h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.home-cont .container .left span {
+  color: #7F919A;
+}
+
+.home-cont .container .left button {
+  color: #fff;
+  background-color: #FF5A3C;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.home-cont .container .right {
+  overflow: hidden;
+}
+
+.home-cont .container .right img {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.about-cont {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-cont h1 {
+  font-weight: bold;
+}
+
+.about-cont h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #7F919A;
+}
+
+.about-cont h6 i {
+  color: #FF5A3C;
+}
+
+.about-cont h6 span {
+  color: #000;
+}
+
+.about-cont h6 span i {
+  color: #7F919A;
+}
+/*# sourceMappingURL=style.css.map */
